@@ -1,6 +1,12 @@
 $(document).ready(function() {
     $('.myNameLatter').animate({ 'opacity': 1 }, 2000);
 
+    // if ($(window).width() < 550){
+    //     console.log($(window).width());
+    //     $('.workParent').removeClass('p-3');
+    // }
+
+
     $(".workParent").mouseenter(function() {
         $(".discrip").animate({ "bottom": "0%", "opacity": 1, "backgroundColor": "blue"}, 1000);
     });
