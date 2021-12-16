@@ -1,10 +1,9 @@
 $(document).ready(function() {
     $('.myNameLatter').animate({ 'opacity': 1 }, 2000);
 
-    // if ($(window).width() < 550){
-    //     console.log($(window).width());
-    //     $('.workParent').removeClass('p-3');
-    // }
+    if ($(window).width() < 550){
+        $('.top-deco-img').attr('src', 'static/bg_deco/sm-topwave.svg');
+    }
 
 
     $(".workParent").mouseenter(function() {
