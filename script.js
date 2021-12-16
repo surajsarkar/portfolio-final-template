@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('.myNameLatter').animate({ 'opacity': 1 }, 2000);
 
     if ($(window).width() < 550){
-        $('.top-deco-img').attr('src', 'static/bg_deco/sm-topwave.svg');
+        $('.sk-bd-box').removeClass('m-3').addClass('m-1');
     }
 
 
