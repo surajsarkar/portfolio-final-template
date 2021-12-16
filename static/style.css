@@ -254,6 +254,13 @@ textarea {
     .form-container {
         width: 90%;
     }
+    .form-cont-height{
+        height: 70%;
+    }
+    .form-element-w{
+        width: 90%;
+    }
+
     .workParent {
         height: 100%;
         width: 95%;
