@@ -150,6 +150,7 @@ textarea {
 
 .form-element-w {
     width: 80%;
+
 }
 
 .form-cont-height {
@@ -259,6 +260,9 @@ textarea {
     }
     .form-element-w{
         width: 90%;
+    }
+    input{
+        height:40px;
     }
 
     .workParent {
