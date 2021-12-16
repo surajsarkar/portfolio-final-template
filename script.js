@@ -6,7 +6,7 @@ $(document).ready(function() {
     });
 
     $(".workParent").mouseleave(function() {
-        $(".discrip").animate({ "bottom": "-80%", "opacity": 0, "backgroundColor": "white", "width": "10%" }, 1000);
+        $(".discrip").animate({ "bottom": "-80%", "opacity": 0, "backgroundColor": "white",}, 1000);
     });
 
     const all_animate_element = document.querySelectorAll('.animate_element');
