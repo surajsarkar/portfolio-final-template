@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('.myNameLatter').animate({ 'opacity': 1 }, 2000);
 
     $(".workParent").mouseenter(function() {
-        $(".discrip").animate({ "bottom": "0%", "opacity": 1, "backgroundColor": "blue", "width": "100%" }, 1000);
+        $(".discrip").animate({ "bottom": "0%", "opacity": 1, "backgroundColor": "blue"}, 1000);
     });
 
     $(".workParent").mouseleave(function() {
