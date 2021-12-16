@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('.myNameLatter').animate({ 'opacity': 1 }, 2000);
 
     if ($(window).width() < 550){
-        $('.sk-bd-box').removeClass('m-3').addClass('m-1');
+        $('.sk-bd-box').removeClass('m-2');
     }
 
 
